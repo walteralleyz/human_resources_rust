@@ -1,0 +1,5 @@
+-- Your SQL goes here
+CREATE TABLE eventos (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    evento CHAR(30) NOT NULL UNIQUE
+);
